@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {  
   return (
-    <ReproductorVideos url="https://youtu.be/vebduV2xxgg" titulo="Este es un título mas o menos como un título"/>   
+    <ReproductorVideos titulo="Este es un título mas o menos como un título"/>   
   )
 }
 
