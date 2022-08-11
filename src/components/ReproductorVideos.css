@@ -1,42 +1,56 @@
-
-
-.contenedorvideos{
+.contenedorvideos {
   border-radius: 20px;
   background-color: rgb(117, 117, 117);
   position: relative;
 
 }
+
 h1 {
-  padding-top: 10px;
   font-size: 2.5em;
   line-height: 1.1;
-  margin-bottom: 5px;
 }
+
 .react-player {
-  position: absolute; 
+  position: absolute;
   left: 0;
-}  
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+button:hover {
+  background-color: rgb(0, 149, 255);
+  color: black;
+  border-radius: 10px;
+}
 
 /*Para móviles*/
-@media only screen and (orientation:portrait ) and (max-width: 768px) {
-  .contenedorvideos{
+@media only screen and (orientation:portrait) and (max-width: 768px) {
+  .contenedorvideos {
     height: 1920px;
     width: 1080px;
-    margin: 10px;  
+    margin: 10px;
   }
+
   h1 {
     padding-top: 10px;
     font-size: 5em;
     line-height: 1.1;
     margin-bottom: 5px;
-  } 
- }
+  }
+}
 
 @media screen and (orientation:landscape) {
-  .contenedorvideos{
+  .contenedorvideos {
     height: 720px;
-    width: 1280px;  
-  }  
-  
+    width: 1280px;
+  }
+
 
 }

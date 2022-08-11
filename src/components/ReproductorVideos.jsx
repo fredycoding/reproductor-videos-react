@@ -12,7 +12,7 @@ export const ReproductorVideos = ({titulo}) => {
   return (
     <>
     <div className="contenedorvideos">
-    <button onClick={()=>setVid(vid="https://youtu.be/5L4DQfVIcdg")}>UN BOTON</button>  
+    <button onClick={()=>setVid(vid="https://youtu.be/5L4DQfVIcdg")}>CAMBIAR VIDEO</button>  
     <h1>{titulo} {vid}</h1>    
     <ReactPlayer className='react-player' 
     url={vid}
